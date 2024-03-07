@@ -20,6 +20,7 @@ app.post('/email/update/:email', emailControl.update);
 app.delete('/email/delete/:email', emailControl.deleteEmail);
 
 //new comment added by Rajesh
+//This line is newly added
 const port = 5000;
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
